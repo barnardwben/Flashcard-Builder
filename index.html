@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Domine&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Flashcards</title>
+</head>
+<body>
+<div class="grid">
+    <div class="fcbox">
+      <h1>Flashcards</h1>
+      <div>
+        <button type="button" class="addBtn">Add Question</button>
+      </div>
+    </div>
+  
+  
+
+  <div class="dvc container hd1">
+    <form action="">
+      <h2>Question: <span><button type="button" class="xBtn">X</button></span></h2>
+      <textarea name="" id="" cols="50" rows="5" class="txta que" required></textarea>
+      <h2>Answer:</h2>
+      <textarea name="" id="" cols="50" rows="5" class="txta ans" required></textarea>
+      <div>
+        <input type="submit" value="Save" class="sbmBtn">
+      </div>
+    </form>
+  </div>
+
+  <div class="fc hd2">
+    <p class="card-front"></p>
+    <a href="#" class="sha">Show/Hide Answer</a>
+    <div class="bc hd3">
+      <p class="card-back"></p>
+    </div>
+    <div class="eddlBtns">
+      <button type="button" class="editBtn">Edit</button>
+      <button type="button" class="dltBtn">Delete</button>
+    </div>
+  </div>
+</div>  
+
+
+  <script src="app.js"></script>
+</body>
+</html>
